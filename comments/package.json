@@ -1,0 +1,16 @@
+{
+  "name": "huiclip-docs-comments",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": "^26.0.0"
+  },
+  "dependencies": {
+    "@waline/admin": "0.36.1",
+    "@waline/vercel": "1.43.8"
+  }
+}

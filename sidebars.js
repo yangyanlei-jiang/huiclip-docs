@@ -1,0 +1,15 @@
+module.exports = {
+  guide: [
+    'index',
+    'install',
+    'private',
+    'codex',
+    'tasks',
+    'task-views',
+    'approvals',
+    'budgets',
+    'troubleshoot',
+    'updates',
+    'community',
+  ],
+};
