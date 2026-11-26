@@ -8,6 +8,7 @@ slug: /
 
 - [在本机安装并创建试用团队](./install.md)
 - [部署团队私有实例](./private.md)
+- [为第二个实例选择端口](./instance-ports.md)
 - [连接 Codex](./codex.md)
 - [派任务并检查结果](./tasks.md)
 - [排查启动和运行问题](./troubleshoot.md)

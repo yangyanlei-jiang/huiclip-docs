@@ -2,7 +2,7 @@
 
 取自 [Paperclip 官方 sitemap](https://docs.paperclip.ing/sitemap.xml)（2026-11-26）。这里只保留公开页面地址与编辑状态。社区文章依据 HuiClip 源码和测试重写自己的操作流程，内容许可参见[同步说明](https://github.com/yangyanlei-jiang/huiclip/blob/community/zh-cn-v1/community/UPSTREAM.md)。
 
-共 318 个唯一地址，22 个已关联到原创文章，其余 296 个待编写。关联可能只覆盖原页的一部分；逐条状态说明已验内容。
+共 318 个唯一地址，23 个已关联到原创文章，其余 295 个待编写。关联可能只覆盖原页的一部分；逐条状态说明已验内容。
 
 ## 首页
 
@@ -333,7 +333,7 @@
 - `/reference/deploy/database/` · [中文原创文章](docs/private.md) · 内嵌 PostgreSQL 已验证，外部数据库和恢复待验。[官方页](https://docs.paperclip.ing/reference/deploy/database/)
 - `/reference/deploy/storage/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/deploy/storage/)
 - `/reference/deploy/secrets/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/deploy/secrets/)
-- `/reference/deploy/environment-variables/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/deploy/environment-variables/)
+- `/reference/deploy/environment-variables/` · [中文原创文章](docs/instance-ports.md) · 部分覆盖：实测 HuiClip 目录与端口变量的初始化和复用。[官方页](https://docs.paperclip.ing/reference/deploy/environment-variables/)
 - `/reference/deploy/https/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/deploy/https/)
 - `/reference/deploy/tailscale-private-access/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/deploy/tailscale-private-access/)
 - `/reference/deploy/tailscale-https-broker/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/deploy/tailscale-https-broker/)

@@ -3,6 +3,7 @@ module.exports = {
     'index',
     'install',
     'private',
+    'instance-ports',
     'codex',
     'tasks',
     'task-views',
