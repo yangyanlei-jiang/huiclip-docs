@@ -2,7 +2,7 @@
 
 取自 [Paperclip 官方 sitemap](https://docs.paperclip.ing/sitemap.xml)（2026-11-26）。这里只保留公开页面地址与编辑状态。社区文章依据 HuiClip 源码和测试重写自己的操作流程，内容许可参见[同步说明](https://github.com/yangyanlei-jiang/huiclip/blob/community/zh-cn-v1/community/UPSTREAM.md)。
 
-共 318 个唯一地址，26 个已关联到原创文章，其余 292 个待编写。关联可能只覆盖原页的一部分；逐条状态说明已验内容。
+共 318 个唯一地址，28 个已关联到原创文章，其余 290 个待编写。关联可能只覆盖原页的一部分；逐条状态说明已验内容。
 
 ## 首页
 
@@ -331,8 +331,8 @@
 - `/reference/deploy/local-development/` · [中文原创文章](docs/install.md) · 本地安装和启动已验证。[官方页](https://docs.paperclip.ing/reference/deploy/local-development/)
 - `/reference/deploy/docker/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/deploy/docker/)
 - `/reference/deploy/database/` · [中文原创文章](docs/private.md) · 内嵌 PostgreSQL 已验证，外部数据库和恢复待验。[官方页](https://docs.paperclip.ing/reference/deploy/database/)
-- `/reference/deploy/storage/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/deploy/storage/)
-- `/reference/deploy/secrets/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/deploy/secrets/)
+- `/reference/deploy/storage/` · [中文原创文章](docs/local-storage.md) · 部分覆盖：默认本地存储与数据库位置。[官方页](https://docs.paperclip.ing/reference/deploy/storage/)
+- `/reference/deploy/secrets/` · [中文原创文章](docs/instance-secrets.md) · 部分覆盖：初始化、密钥路径与文件权限。[官方页](https://docs.paperclip.ing/reference/deploy/secrets/)
 - `/reference/deploy/environment-variables/` · [中文原创文章](docs/instance-ports.md) · 部分覆盖：实测 HuiClip 目录与端口变量的初始化和复用。[官方页](https://docs.paperclip.ing/reference/deploy/environment-variables/)
 - `/reference/deploy/https/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/deploy/https/)
 - `/reference/deploy/tailscale-private-access/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/deploy/tailscale-private-access/)

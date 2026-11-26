@@ -4,6 +4,8 @@ module.exports = {
     'install',
     'private',
     'instance-ports',
+    'local-storage',
+    'instance-secrets',
     'cli-first-check',
     'service-preview',
     'codex',
