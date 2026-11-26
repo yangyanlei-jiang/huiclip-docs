@@ -4,6 +4,8 @@ module.exports = {
     'install',
     'private',
     'instance-ports',
+    'cli-first-check',
+    'service-preview',
     'codex',
     'tasks',
     'task-views',

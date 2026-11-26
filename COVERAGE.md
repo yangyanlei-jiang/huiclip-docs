@@ -2,7 +2,7 @@
 
 取自 [Paperclip 官方 sitemap](https://docs.paperclip.ing/sitemap.xml)（2026-11-26）。这里只保留公开页面地址与编辑状态。社区文章依据 HuiClip 源码和测试重写自己的操作流程，内容许可参见[同步说明](https://github.com/yangyanlei-jiang/huiclip/blob/community/zh-cn-v1/community/UPSTREAM.md)。
 
-共 318 个唯一地址，23 个已关联到原创文章，其余 295 个待编写。关联可能只覆盖原页的一部分；逐条状态说明已验内容。
+共 318 个唯一地址，26 个已关联到原创文章，其余 292 个待编写。关联可能只覆盖原页的一部分；逐条状态说明已验内容。
 
 ## 首页
 
@@ -246,14 +246,14 @@
 - `/reference/api/tool-gateway/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/api/tool-gateway/)
 - `/reference/api/connection-intents/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/api/connection-intents/)
 - `/reference/api/instance-admin/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/api/instance-admin/)
-- `/reference/cli/overview/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/cli/overview/)
+- `/reference/cli/overview/` · [中文原创文章](docs/cli-first-check.md) · 部分覆盖：已验本地 CLI 帮助与版本。[官方页](https://docs.paperclip.ing/reference/cli/overview/)
 - `/reference/cli/installation/` · [中文原创文章](docs/install.md) · HuiClip 本地包已验证，原版 CLI 参考源站。[官方页](https://docs.paperclip.ing/reference/cli/installation/)
 - `/reference/cli/common-options/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/cli/common-options/)
-- `/reference/cli/output-and-scripting/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/cli/output-and-scripting/)
+- `/reference/cli/output-and-scripting/` · [中文原创文章](docs/cli-first-check.md) · 部分覆盖：已验 info JSON 的端口字段。[官方页](https://docs.paperclip.ing/reference/cli/output-and-scripting/)
 - `/reference/cli/setup-commands/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/cli/setup-commands/)
 - `/reference/cli/runtime/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/cli/runtime/)
 - `/reference/cli/test-drive/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/cli/test-drive/)
-- `/reference/cli/service/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/cli/service/)
+- `/reference/cli/service/` · [中文原创文章](docs/service-preview.md) · 部分覆盖：已验 macOS 服务定义字段；未注册服务。[官方页](https://docs.paperclip.ing/reference/cli/service/)
 - `/reference/cli/dev-environments/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/cli/dev-environments/)
 - `/reference/cli/authentication/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/cli/authentication/)
 - `/reference/cli/connect/` · 待编写和验证。[官方页](https://docs.paperclip.ing/reference/cli/connect/)
