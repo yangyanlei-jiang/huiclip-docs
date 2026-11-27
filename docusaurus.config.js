@@ -28,7 +28,7 @@ module.exports = {
     navbar: {
       title: 'HuiClip',
       items: [
-        { type: 'docSidebar', sidebarId: 'guide', label: '指南', position: 'left' },
+        { to: '/paperclip-chinese-docs/', label: '中文文档', position: 'left' },
         { type: 'docsVersionDropdown', position: 'right' },
         { href: 'https://github.com/yangyanlei-jiang/huiclip', label: 'GitHub', position: 'right' },
       ],

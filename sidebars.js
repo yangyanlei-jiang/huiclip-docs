@@ -1,6 +1,7 @@
 module.exports = {
   guide: [
     'index',
+    'handbook',
     'install',
     'private',
     'instance-ports',
