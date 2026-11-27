@@ -7,10 +7,10 @@ HuiClip 基于上游 Paperclip 稳定标签 `v2026.1117.0`。选择下面的社�
 准备 Node.js 24.11+、npm、pnpm 9.15.4 和 tar，然后运行：
 
 ```sh
-npx --yes huiclip@0.1.4 run
+npx --yes huiclip@0.1.5 run
 ```
 
-启动后打开 [http://127.0.0.1:1549](http://127.0.0.1:1549)。包名是 `huiclip`，不需要先克隆仓库或下载本地压缩包。想确认使用的版本，可以执行 `npx --yes huiclip@0.1.4 --version`。
+启动后打开 [http://127.0.0.1:1549](http://127.0.0.1:1549)。包名是 `huiclip`，不需要先克隆仓库或下载本地压缩包。想确认使用的版本，可以执行 `npx --yes huiclip@0.1.5 --version`。
 
 ### 升级现有实例
 
@@ -24,7 +24,7 @@ npx --yes huiclip@0.1.4 run
 git clone --branch community/zh-cn-v1 --single-branch https://github.com/yangyanlei-jiang/huiclip.git
 cd huiclip
 node community/huiclip/pack.mjs ../huiclip-packages
-npm install --global --prefix ../huiclip-cli ../huiclip-packages/huiclip-0.1.4.tgz
+npm install --global --prefix ../huiclip-cli ../huiclip-packages/huiclip-0.1.5.tgz
 ../huiclip-cli/bin/huiclip setup
 ../huiclip-cli/bin/huiclip run
 ```
