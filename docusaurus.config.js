@@ -1,7 +1,7 @@
 module.exports = {
   title: 'HuiClip',
   tagline: '面向中文开发团队的 Paperclip 社区版',
-  url: 'http://127.0.0.1:4174',
+  url: process.env.HUICLIP_SITE_URL || 'http://127.0.0.1:4174',
   baseUrl: '/',
   organizationName: 'yangyanlei-jiang',
   projectName: 'huiclip-docs',

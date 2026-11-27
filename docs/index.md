@@ -6,6 +6,16 @@ slug: /
 
 这是面向中文开发团队、独立维护的 Paperclip 社区版。应用源码基于 [Paperclip 上游](https://github.com/paperclipai/paperclip) 的 MIT 稳定标签，本指南由社区编写。
 
+## 安装并启动
+
+```sh
+npx --yes huiclip@latest run
+```
+
+[查看安装要求和升级步骤](./install.md) · [浏览 GitHub 源码](https://github.com/yangyanlei-jiang/huiclip)
+
+## 中文文档
+
 - [在本机安装并创建试用团队](./install.md)
 - [部署团队私有实例](./private.md)
 - [为第二个实例选择端口](./instance-ports.md)
