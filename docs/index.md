@@ -1,4 +1,6 @@
 ---
+title: "HuiClip 中文官网与文档"
+description: "HuiClip 是面向中文开发团队的 Paperclip 社区版。查看 npm 安装、升级、连接 Codex 和团队部署的中文指南。"
 slug: /
 ---
 

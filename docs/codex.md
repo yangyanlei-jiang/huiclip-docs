@@ -1,3 +1,7 @@
+---
+description: "配置 HuiClip 的 Codex 智能体，核对 CLI、账号连接和运行环境。"
+---
+
 # 连接 Codex
 
 把 Paperclip 的任务交给 Codex 时，先在运行 Agent 的主机和系统账号下检查环境，再选一个独立测试项目。浏览器所在的电脑可以与执行主机不同。

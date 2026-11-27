@@ -1,3 +1,7 @@
+---
+description: "在 macOS 检查 HuiClip 的 launchd 服务配置、启动命令和日志。"
+---
+
 # 在 macOS 检查 HuiClip 服务定义
 
 如果准备让 HuiClip 随登录启动，可以先确认服务将调用哪个程序、使用哪个数据目录。HuiClip 0.1.3 的 `service-file` 会把服务定义写到标准输出。生成后可以先检查文件，不必把它放进 LaunchAgents 目录。

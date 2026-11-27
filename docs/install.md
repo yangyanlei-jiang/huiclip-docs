@@ -1,3 +1,7 @@
+---
+description: "从 npm 安装、启动或升级 HuiClip，核对依赖与端口，并保留现有数据目录。"
+---
+
 # 安装与启动
 
 HuiClip 基于上游 Paperclip 稳定标签 `v2026.1117.0`。选择下面的社区分支可以获得简中默认界面、`huiclip` 命令和独立数据目录。上游安装命令 `npx paperclipai` 安装的是 Paperclip 原版。
