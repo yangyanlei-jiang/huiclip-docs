@@ -1,6 +1,6 @@
 # 安装与启动
 
-回形夹 · HuiClip 基于上游 Paperclip 稳定标签 `v2026.1117.0`。选择下面的社区分支可以获得简中默认界面、`huiclip` 命令和独立数据目录。上游安装命令 `npx paperclipai` 安装的是 Paperclip 原版。
+HuiClip 基于上游 Paperclip 稳定标签 `v2026.1117.0`。选择下面的社区分支可以获得简中默认界面、`huiclip` 命令和独立数据目录。上游安装命令 `npx paperclipai` 安装的是 Paperclip 原版。
 
 ## 从社区源码打包
 
@@ -10,7 +10,7 @@
 git clone --branch community/zh-cn-v1 --single-branch https://github.com/yangyanlei-jiang/huiclip.git
 cd huiclip
 node community/huiclip/pack.mjs ../huiclip-packages
-npm install --global --prefix ../huiclip-cli ../huiclip-packages/huiclip-0.1.3.tgz
+npm install --global --prefix ../huiclip-cli ../huiclip-packages/huiclip-0.1.4.tgz
 ../huiclip-cli/bin/huiclip setup
 ../huiclip-cli/bin/huiclip run
 ```

@@ -4,12 +4,12 @@
 
 ```sh
 node community/huiclip/pack.mjs ../huiclip-packages
-npm install --global --prefix ../huiclip-cli ../huiclip-packages/huiclip-0.1.3.tgz
+npm install --global --prefix ../huiclip-cli ../huiclip-packages/huiclip-0.1.4.tgz
 ../huiclip-cli/bin/huiclip setup
 ../huiclip-cli/bin/huiclip run
 ```
 
-这里使用本分支的 0.1.3 本地包。发生数据库迁移时，切回旧包之前应使用对应备份在另一个数据目录试跑。
+这里使用本分支的 0.1.4 本地包。发生数据库迁移时，切回旧包之前应使用对应备份在另一个数据目录试跑。
 
 卸载前先关闭 HuiClip 及其独立服务。运行 `npm uninstall --global --prefix ../huiclip-cli huiclip` 移除包和命令入口。HuiClip 的配置、数据库、登录和运行缓存仍在 `HUICLIP_HOME`，由管理员按备份策略管理。Waline 的数据库需要单独备份。
 

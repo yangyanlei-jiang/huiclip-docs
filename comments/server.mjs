@@ -70,7 +70,7 @@ Object.assign(process.env, {
   SQLITE_DB: 'waline',
   SQLITE_PREFIX: 'wl_',
   JWT_TOKEN: jwt,
-  SITE_NAME: '回形夹 · HuiClip',
+  SITE_NAME: 'HuiClip',
   SITE_URL: siteOrigin.origin,
   SECURE_DOMAINS: `${siteOrigin.host},${host}:${port}`,
   LOGIN: 'force',

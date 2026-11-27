@@ -1,5 +1,5 @@
 module.exports = {
-  title: '回形夹 · HuiClip',
+  title: 'HuiClip',
   tagline: '面向中文开发团队的 Paperclip 社区版',
   url: 'http://127.0.0.1:4174',
   baseUrl: '/',
@@ -22,7 +22,7 @@ module.exports = {
   ],
   themeConfig: {
     navbar: {
-      title: '回形夹 · HuiClip',
+      title: 'HuiClip',
       items: [
         { type: 'docSidebar', sidebarId: 'guide', label: '指南', position: 'left' },
         { type: 'docsVersionDropdown', position: 'right' },

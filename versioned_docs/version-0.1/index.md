@@ -2,7 +2,7 @@
 slug: /
 ---
 
-# 回形夹 · HuiClip
+# HuiClip
 
 这是面向中文开发团队、独立维护的 Paperclip 社区版。应用源码基于 [Paperclip 上游](https://github.com/paperclipai/paperclip) 的 MIT 稳定标签，本指南由社区编写。
 
