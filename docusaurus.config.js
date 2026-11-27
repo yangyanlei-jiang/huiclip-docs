@@ -3,6 +3,7 @@ module.exports = {
   tagline: '面向中文开发团队的 Paperclip 社区版',
   url: process.env.HUICLIP_SITE_URL || 'http://127.0.0.1:4174',
   baseUrl: '/',
+  trailingSlash: true,
   organizationName: 'yangyanlei-jiang',
   projectName: 'huiclip-docs',
   i18n: { defaultLocale: 'zh-Hans', locales: ['zh-Hans'] },
@@ -11,11 +12,14 @@ module.exports = {
   presets: [
     ['classic', {
       blog: false,
+      sitemap: { ignorePatterns: ['/0.1/**', '/next/**'] },
       docs: {
         routeBasePath: '/',
         sidebarPath: './sidebars.js',
+        lastVersion: 'current',
         versions: {
-          current: { label: '开发中' },
+          current: { label: '当前文档', path: '' },
+          '0.1': { label: '0.1 存档', path: '0.1', noIndex: true },
         },
       },
     }],
