@@ -7,10 +7,10 @@ HuiClip 基于上游 Paperclip 稳定标签 `v2026.1117.0`。选择下面的社�
 准备 Node.js 24.11+、npm、pnpm 9.15.4 和 tar，然后运行：
 
 ```sh
-npx --yes huiclip@0.1.5 run
+npx --yes huiclip@latest run
 ```
 
-启动后打开 [http://127.0.0.1:1549](http://127.0.0.1:1549)。包名是 `huiclip`，不需要先克隆仓库或下载本地压缩包。想确认使用的版本，可以执行 `npx --yes huiclip@0.1.5 --version`。
+启动后打开 [http://127.0.0.1:1549](http://127.0.0.1:1549)。包名是 `huiclip`，不需要先克隆仓库或下载本地压缩包。想确认使用的版本，可以执行 `npx --yes huiclip@latest --version`。
 
 ### 升级现有实例
 
@@ -24,10 +24,12 @@ npx --yes huiclip@0.1.5 run
 git clone --branch community/zh-cn-v1 --single-branch https://github.com/yangyanlei-jiang/huiclip.git
 cd huiclip
 node community/huiclip/pack.mjs ../huiclip-packages
-npm install --global --prefix ../huiclip-cli ../huiclip-packages/huiclip-0.1.5.tgz
+npm install --global --prefix ../huiclip-cli ../huiclip-packages/huiclip-*.tgz
 ../huiclip-cli/bin/huiclip setup
 ../huiclip-cli/bin/huiclip run
 ```
+
+源码打包请用一个空的输出目录；若有多份旧包，请用打包命令实际产出的文件名替换通配符。
 
 如希望在当前终端直接使用 `huiclip`，可以执行 `export PATH="$(cd ../huiclip-cli/bin && pwd):$PATH"`。
 
